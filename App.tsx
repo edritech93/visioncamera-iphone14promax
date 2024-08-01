@@ -7,8 +7,11 @@ export default function App() {
   const [hasPermission, setHasPermission] = useState(false);
 
   useEffect(() => {
-    const cameraPermission = Camera.getCameraPermissionStatus();
-    setHasPermission(cameraPermission === 'granted');
+    async function _loadPermission() {
+      const cameraPermission = await Camera.requestCameraPermission();
+      setHasPermission(cameraPermission === 'granted');
+    }
+    _loadPermission();
   }, []);
 
   if (device && hasPermission) {
