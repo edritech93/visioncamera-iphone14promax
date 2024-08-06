@@ -14,6 +14,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-haermesFix-haermesFixTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-haermesFix-haermesFixTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D4580F992C620046007194DC /* mobile_face_net.tflite in Resources */ = {isa = PBXBuildFile; fileRef = D4580F982C620046007194DC /* mobile_face_net.tflite */; };
 		D4C085B32C5B3E8E001277F5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D4C085B22C5B3E8E001277F5 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-haermesFix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-haermesFix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = haermesFix/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-haermesFix-haermesFixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haermesFix-haermesFixTests.release.xcconfig"; path = "Target Support Files/Pods-haermesFix-haermesFixTests/Pods-haermesFix-haermesFixTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4580F982C620046007194DC /* mobile_face_net.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = mobile_face_net.tflite; path = haermesFix/mobile_face_net.tflite; sourceTree = "<group>"; };
 		D4C085B22C5B3E8E001277F5 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = haermesFix/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 		13B07FAE1A68108700A75B9A /* haermesFix */ = {
 			isa = PBXGroup;
 			children = (
+				D4580F982C620046007194DC /* mobile_face_net.tflite */,
 				D4C085B22C5B3E8E001277F5 /* PrivacyInfo.xcprivacy */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4580F992C620046007194DC /* mobile_face_net.tflite in Resources */,
 				D4C085B32C5B3E8E001277F5 /* PrivacyInfo.xcprivacy in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
@@ -471,7 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 77MH7DAV5Q;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = haermesFix/Info.plist;
@@ -502,7 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 77MH7DAV5Q;
 				INFOPLIST_FILE = haermesFix/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BoilerplateRN;
